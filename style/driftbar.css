@@ -1,0 +1,41 @@
+
+.driftBar
+{
+  top:0;
+  height:;
+  width:100%;
+  background-color:#213399; /* Facebook-ish blue */
+  margin:0px auto;
+  padding:0px;
+  border:none;
+  z-index:0;
+}
+
+#outerSeparator
+{  
+  clear:both;
+  /* display:none; */
+  width:100%;
+  border-top:2px solid #404040;
+  border-bottom:1px solid #a0a0a0;
+  margin:0;
+  padding:0;
+  font-size:1px;
+  overflow:hidden;
+  float:top;
+}
+
+#separator
+{
+  display:none;
+  background:#eaeaea;
+  height:3px;
+}
+
+#driftFrame
+{
+  width:100%;
+  padding:0px;
+  border:0px solid gray;
+  margin:0px auto;
+}
